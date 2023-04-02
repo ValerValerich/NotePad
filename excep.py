@@ -141,7 +141,7 @@ def delete_note_from_csv():  # Удаление записи по айдишни
         ui.menu()
     else:
         print("Такого idшника нет, попробуй еще раз\n")
-        delete_note_from_csv()
+        ui.menu()
 
 
 def show_this_note():  # Вывод конкретной записи по айдишнику Готово
